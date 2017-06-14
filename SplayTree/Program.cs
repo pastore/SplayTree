@@ -10,8 +10,10 @@ namespace SplayTree
     {
         static void Main(string[] args)
         {
+            WorkWIthSplayTree();
+            Console.Read();
         }
-        static void SetWithSum2()
+        static void WorkWIthSplayTree()
         {
             var countQuery = int.Parse(Console.ReadLine());
             StringBuilder sb = new StringBuilder();
